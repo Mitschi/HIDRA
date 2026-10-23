@@ -1,5 +1,3 @@
-![HIDRA: Hybrid Iterative Dependency-Conflict Repair Automation](banner.png "Title")
-
 This repository contains the implementation used in my Master’s thesis. The thesis investigates how dependency updates (in particular API-breaking changes) can be addressed by automatically modifying project source code. Instead of trying to select a “perfect” dependency version, HIDRA focuses on repairing the project so it compiles and builds again against an updated library version.
 
 The tool is evaluated on containerized, reproducible update scenarios (based on BUMP) and targets primarily build / compilation errors (e.g., missing or changed symbols) that occur after updating a dependency.
